@@ -1,0 +1,21 @@
+# Variables de entorno sensibles locales
+.env
+
+# Ejecutables compilados de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+verifydomain
+main
+
+# Carpetas y archivos de editores / IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
