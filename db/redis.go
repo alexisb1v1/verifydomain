@@ -40,3 +40,4 @@ func GetTenantValue(ctx context.Context, domain string) (string, error) {
 	key := fmt.Sprintf("tenant:%s", domain)
 	return Client.Get(ctx, key).Result()
 }
+
